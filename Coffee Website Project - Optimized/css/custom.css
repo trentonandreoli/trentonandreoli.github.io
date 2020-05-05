@@ -1,0 +1,173 @@
+.Header_Section_1 {
+  background-color: #FFF5E1;
+}
+
+.Header_Section_2 {
+  background-color: #E9CBA7;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Goudy Old Style";
+  font-weight: bold;
+  font-size: 80px;
+  color: #2F1D07;
+}
+
+h3 {
+ text-align: center;
+ font-size: 70px;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Goudy Old Style";
+  font-size: 65px;
+  color: #2F1D07;
+}
+
+h5 {
+  text-align: center;
+  font-family: "Goudy Old Style";
+  font-size: 50px;
+  color: #2F1D07;
+  font-weight: bold;
+}
+
+h6 {
+  text-align: center;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+p {
+  text-align:justify;
+  font-size: 20px;
+  float: left;
+  color: #FFF5E1;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.flt_lft {
+  float: left;
+}
+
+.flt_rt {
+  float: right;
+}
+
+.blue_text {
+  color: ##3b5998;
+}
+
+.yellow_text {
+  color: #FFFC00;
+}
+
+.pink_text {
+  color: #CC2BC5;
+}
+
+.top_text {
+  margin-top: 75px;
+}
+
+.bottom_text {
+  margin-bottom: 75px
+}
+
+.brown_text {
+  color: brown;
+}
+
+.oval {
+  height: 100px;
+  width: 400px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.rectangle {
+  height: 40px;
+  width: 150px;
+  background-color: #5A3825;
+  float: right
+}
+
+.large_rectangle {
+  height: 700px;
+  width: 500px;
+  background-color: #C7AC83;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Tbuffer {
+  margin-top: 35px
+}
+
+.Tbuffer2 {
+  margin-top: 12px
+}
+
+.Bbuffer {
+  margin-bottom: 10px
+}
+
+.Bbuffer2 {
+  margin-bottom: 35px
+}
+
+.Thin_Border {
+ border: 3px solid #2F1D07;
+}
+
+.Extra_Thin_Border {
+ border: 2px solid #2F1D07;
+}
+
+.Thick_Border {
+ border: 40px solid #5A3825;
+}
+
+.Menu_Header {
+  background-color: #FFFFFF;
+}
+
+.Menu_Section {
+  background-color: #CC9966;
+}
+
+.Menu_Section2 {
+  background-color: #E9CBA7;
+}
+
+.Storefront {
+  border-radius: 25%;
+}
+
+.checked {
+  color: #2F1D07;
+}
+
+.line {
+  height: 3px;
+  width: 1100px;
+  background-color: #2F1D07;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.mini_rectangle1 {
+  height: 20px;
+  width: 600px;
+  background-color: #CC9966;
+  margin-top: 10px;
+}
