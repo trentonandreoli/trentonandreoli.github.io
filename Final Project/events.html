@@ -38,44 +38,21 @@
         <li class="nav-item">
           <a class="nav-link" href="About_Us.html">About Us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Our_Team.html">Our Team</a>
-        </li>
       </ul>
     </div>
     </nav>
 
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-
-        <!-- The slideshow -->
-        <div class="container-fluid home_style">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="Pizza_Party1.jpeg" class="carousel_img" alt="TBC Event Pictures">
-            </div>
-            <div class="carousel-item">
-              <img src="Pizza_Party2.jpeg" class="carousel_img" alt="TBC Event Pictures">
-            </div>
-            <div class="carousel-item">
-              <img src="Pizza_Party3.jpeg" class="carousel_img" alt="TBC Event Pictures">
-            </div>
-          </div>
+    <div class="row Background_light">
+        <div class="col-md-3 T-buffer">
+          <img src="Pizza_Party2.jpeg" class="img-fluid centered" alt="TBC Event Pictures">
         </div>
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
+        <div class="col-md-6">
+          <img src="Pizza_Party1.jpeg" class="img-fluid centered" alt="TBC Event Pictures">
+        </div>
+        <div class="col-md-3 T-buffer">
+          <img src="Pizza_Party3.jpeg" class="img-fluid centered" alt="TBC Event Pictures">
+        </div>
+    </div>
 
       <div class="row event_margin black_outline">
         <div class="col-md-12">
@@ -84,25 +61,25 @@
      </div>
 
       <div class="container-fluid">
-        <div class="row Background_dark">
+        <div class="row Background_medium">
           <div class="col-md-12">
             <h4 class="left">Home Pizza Night: Come make pizza with us!</h4>
           </div>
           <div class="col-md-4">
-            <img src="pizza.jpg" class="rounded-circle event_img event_margin" alt="The PIZZA">
+            <img src="pizza.jpg" class="rounded-circle event_img event_margin img-fluid" alt="The PIZZA">
           </div>
           <div class="col-md-8 event_margin">
             <h5>Where: Connor and Trenton's Apt.</h5>
             <h5>When: Friday, Sept. 4th, 7pm</h5>
-            <h5>What to Bring: Your sparkling personality</h5>
+            <h5>What to Bring: A hungry belly and clothes you don't mind getting messy</h5>
           </div>
           </div>
-          <div class="row Background_medium">
+          <div class="row Background_dark">
             <div class="col-md-12">
               <h4 class="left">Improve Show: Attend a comedy night with us!</h4>
             </div>
             <div class="col-md-4">
-              <img src="comedy.jpg" class="rounded-circle event_img event_margin" alt="The MIC">
+              <img src="comedy.jpg" class="rounded-circle event_img event_margin img-fluid" alt="The MIC">
             </div>
             <div class="col-md-8 event_margin">
               <h5>Where: The IMU</h5>
@@ -111,20 +88,36 @@
             </div>
           </div>
 
-          <div class="row Background_light">
+          <div class="row Background_medium">
             <div class="col-md-12">
               <h4 class="left">Add-on Tournament: Join us in a climbing mini-game!</h4>
             </div>
             <div class="col-md-4">
-              <img src="generic1.jpg" class="rounded-circle event_img event_margin" alt="The MIC">
+              <img src="generic1.jpg" class="rounded-circle event_img event_margin img-fluid" alt="The MIC">
             </div>
             <div class="col-md-8 event_margin">
               <h5>Where: Eigenmann Hall</h5>
               <h5>When: Friday, Noc. 20th, 5pm</h5>
-              <h5>What to Bring: Your sparkling personality</h5>
+              <h5>What to Bring: Climbing shoes and your competative spirit</h5>
             </div>
           </div>
 
+          <div class="row event_margin">
+            <div class="col-md-4 centered">
+          <form action="/action_page.php" id="usrform">
+              Name: <input type="text" name="usrname">
+            </form>
+            <br>
+            <textarea rows="4" cols="50" name="comment" form="usrform">
+            Enter new event ideas here!</textarea>
+            <br>
+            <input type="submit">
+          </div>
+          <div class="col-md-8">
+            <h5>We value your input and read through all ideas. If you have any suggestions for future club activies we are all ears!</h5>
+
+          </div>
+          </div>
          </div>
 
         <div class="row black_outline event_margin">
