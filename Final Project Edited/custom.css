@@ -1,0 +1,119 @@
+.carousel_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 510px;
+}
+
+.frontlogo {
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  font-size: 18px;
+  height: 100px;
+  width: 100px;
+  border: solid 4px;
+  border-color: #FFFF00;
+}
+
+.red {
+  color:#FF0000;
+}
+
+.jumbotron {
+  background-image:url(https://res.cloudinary.com/dkttq85wi/image/upload/c_scale,h_398/v1590344906/Final/bouldering_wall_rrf2hl.jpg);
+  height:250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family:"Lucida Bright";
+  font-size:60px;
+  color: #FFFF00;
+}
+
+h2  {
+  font-family:"Lucida Bright";
+  font-size:40px;
+  color: #FFFDE7;
+  text-align: center;
+}
+
+h3  {
+  color: #FFFDE7;
+  font-size: 20px;
+}
+
+h4  {
+  font-family:"Lucida Bright";
+  font-size:40px;
+  color: #F57F17;
+  text-align: center;
+}
+
+h5  {
+  text-align: left;
+  font-family:"Arial";
+  font-size:30px;
+  color: #0000000;
+}
+
+h6  {
+  text-align: center;
+  font-size: 80px;
+  color: #FFFDE7;
+}
+
+p {
+  font-size: 25px;
+  font-family: "Arial";
+}
+
+.frontpageimg {
+  height:150px;
+  width: 150px;
+  border: solid 4px;
+  border-color: #F57F17;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.Background_dark {
+  background-color: #ffff4d;
+}
+
+.Background_medium {
+  background-color: #ffffb3;
+}
+
+.Background_light {
+  background-color: #ffffe6;
+}
+
+.event_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:225px;
+  width: 225px;
+  border: solid 4px;
+  border-color: #F57F17;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

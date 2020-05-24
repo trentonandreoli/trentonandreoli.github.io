@@ -8,11 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="custom.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="custom.css">
 
     <!-- Primary Meta Tags -->
     <title>The Bouldering Community</title>
@@ -35,32 +33,33 @@
   </head>
   <body>
 
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">
-    <img src="https://res.cloudinary.com/dkttq85wi/image/upload/c_scale,h_40/v1590113460/Final/Logo_b687ah.jpg" alt="logo" style="width:40px;" src="lazy-lowQuality.jpg" data-src="lazy.jpg">
-    </a>
-    <!-- Brand -->
-    <a class="navbar-brand" href="index.html">The Bouldering Community</a>
+     <div class="jumbotron jumbotron-fluid my-0">
+       <div class="container">
+          <img src="Logo.jpeg" alt="Logo" class="frontlogo img-fluidS">
 
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+          <h1>The Bouldering Community</h1>
 
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="events.html">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="About_Us.html">About Us</a>
-        </li>
-      </ul>
+       </div>
     </div>
-    </nav>
+
+          <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm justify-content-center bg-warning navbar-light">
+
+        <!-- Links -->
+
+        <ul class="navbar-nav">
+          <li class="nav-item col-md-4">
+            <a class="nav-link" href="index.html"><h2>Home</h2></a>
+          </li>
+          <li class="nav-item col-md-4">
+            <a class="nav-link" href="events.html"><h2>Events</h2></a>
+          </li>
+          <li class="nav-item col-md-4">
+            <a class="nav-link" href="About_Us.html"><h2>About</h2></a>
+          </li>
+        </ul>
+
+      </nav>
 
     <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -75,7 +74,7 @@
         </ul>
 
         <!-- The slideshow -->
-        <div class="container-fluid home_style">
+        <div class="container-fluid Background_light">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="https://res.cloudinary.com/dkttq85wi/image/upload/v1590113455/Final/climber1_ry5oxk.jpg" class="carousel_img img-fluid" alt="TBC Bouldering Room" src="lazy-lowQuality.jpg" data-src="lazy.jpg">
@@ -104,21 +103,56 @@
         <a class="carousel-control-next" href="#demo" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
-
       </div>
 
-      <div class="row centered">
-          <h2>We believe climbing is more fun with friends, come climb with us evey Friday from</h2> <h2 class="red"> 5-7pm</h2> <h2> in Eigenmann!</h2>
+      <div class="container-fluid Background_medium">
+        <div class="row centered">
+            <br>
+            <h4>Welcome to The Bouldering Community Webpage!</h4>
+            <br>
+            <p>We believe climbing is more fun with friends, come climb with us every
+              <span style='color: red'><b>Friday from 5pm - 7pm!</b></span>
+            </p>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+              <img src="https://res.cloudinary.com/dkttq85wi/image/upload/c_scale,w_150/v1590346067/Final/bloomington_x2vazw.jpg" alt="IU Sample Gates" class="img-fluid rounded-circle frontpageimg centered">
+          </div>
+          <div class="col-md-10">
+          <br>
+          <p>
+            We are a Indiana University registered organizaiton
+            and work closely with Outdoor Adventures to provide all
+            students on campus the oppurtunity to get introduced to the sport
+            of bouldering.
+          </p>
+        </div>
+
+          <div class="col-md-10">
+            <br>
+            <p>
+              We are meetup in the Outdoor Adventures Bouldering wall in the
+              bottom floor of Eigenmann Hall. Directions on how to find us can base
+              found on the "About" page.
+            </p>
+          </div>
+          <div class="col-md-2">
+              <img src="https://res.cloudinary.com/dkttq85wi/image/upload/c_scale,h_150/v1590347511/Final/Eigenmann_qagpej.jpg" alt="IU Sample Gates" class="img-fluid rounded-circle frontpageimg centered">
+              <br>
+          </div>
+        </div>
       </div>
-      <div class="row black_outline event_margin">
-        <div class="col-md-4">
+
+    <div class="container-fluid bg-warning">
+      <div class="row">
+        <div class="col-md-2 col-sm-12">
+          <h6><i class="far fa-id-card"></i></h6>
+        </div>
+        <div class="col-md-8">
+          <br>
           <a href="https://beinvolved.indiana.edu/organization/tbc"><h3 class="left"> Beinvolved Club Link </h3></a>
-        </div>
-        <div class="col-md-4">
-          <h3 class="center">Contact Us!</h3>
-        </div>
-        <div class="col-md-4">
-          <h3 class="right">cstacey@iu.edu</h3>
+          <h3 class="left">cstacey@iu.edu</h3>
+          <br>
         </div>
       </div>
     </div>
